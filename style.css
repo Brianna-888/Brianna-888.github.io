@@ -90,9 +90,7 @@ footer li {
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
   padding: 80px;
-}
-.content1 {
-  grid-area: content1;
+
 }
 .content2 {
   grid-area: content2;
