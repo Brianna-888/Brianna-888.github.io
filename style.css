@@ -84,13 +84,33 @@ footer li {
   margin: 0 auto;
   display: block;
 }
-.img1 {
-  grid-area: img1;
-  C:\Users\16122\Desktop\photoz\star.png
+#brtSection {
+  margin: 40px 12.5% 40px 12.5%;
+  display: grid;
+  height: 704px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 55%;
+}
+#brtDescription h7 {
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+#brtDescription p {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+#brtImages {
+  background-color: #75C5DE;
+  max-width: 100%;
+  height: auto; 
+}
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
   padding: 80px;
-
+}
+.content1 {
+  grid-area: content1;
 }
 .content2 {
   grid-area: content2;
